@@ -1,0 +1,7 @@
+{
+    "potfile-path":"/data/",
+    "restorefile-path":"/data/",
+    "workload-profile":3,
+    "bitmap-max":24,
+    "optimized-kernel":1
+}
