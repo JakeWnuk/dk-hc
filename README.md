@@ -22,7 +22,6 @@ easier.
     - `potfile-path`
     - `restorefile-path`
     - `workload-profile`
-    - `bitmap-max`
     - `optimized-kernel`
 
 ## Usage
