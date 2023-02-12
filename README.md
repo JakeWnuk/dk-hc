@@ -43,8 +43,7 @@ easier.
 ## Install
 
 - `git clone`
-- Install `nvidia-docker2` to allow the `gpu` docker flag. A script has been
-  created in `install` but please refer to the official documentation.
+- Install `nvidia-docker2` to allow the `gpu` docker flag. [Please refer to the official documentation.](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
 - Build and test image.
     - `docker build . -t dk-hc`
     - `docker run --network=host --rm -it --gpus all -v $PWD:/data dk-hc 0 -b`
